@@ -22,4 +22,4 @@
 - p006-conversor-temperatura.py
 - p007-entrada-multiple.py
 - p008-entrada-con-espacio.py
-- p008b-entrada-con-espacio.py
+- p008b-entrada-multiple.py
