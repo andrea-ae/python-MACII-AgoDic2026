@@ -7,7 +7,7 @@ print("\033[H\033[J", end="")
 print("Calculando el promedio de tres calificaciones: \n")
 
 # Entrada
-print("Escribe las tres calificaciones separada por un <Espacio>: ")
+print("Escribe las tres calificaciones separadas por un <Espacio>: ")
 cal1, cal2, cal3 = input().split()
 #print(type(cal1), type(cal2), type(cal3))
 cal1, cal2, cal3 = [float(cal1), float(cal2), float(cal3)]
