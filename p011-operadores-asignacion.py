@@ -10,10 +10,14 @@ print("." * 50)
 
 # Operador de asignación básico (=)
 x = int(input("Escribe el valor de x: "))
-print("." * 50)
-print(f"Valor inicial de x: {x:>5,.2f}")
+
 
 print("." * 50)
+print("Operadores de asignación de x")
+print("." * 50)
+
+print(f"     x:  {x:>5,.2f} <- Valor inicial de x")
+
 # Aplicar diferentes operadores de asignación
 x += 5 # x = x + 5
 print(f"x += 5:  {x:>5,.2f} <- Sumar 5 a x")
