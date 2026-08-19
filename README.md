@@ -24,7 +24,7 @@
 - p007-entrada-multiple.py
 - p008-entrada-con-espacio.py
 - p008b-entrada-multiple.py
-<!--
+
 ## Actividad 4 - Elementos básicos parte 2
 - p009-promedio-de-calificaciones.py 
 - p010-operaciones-matematicas.py 
