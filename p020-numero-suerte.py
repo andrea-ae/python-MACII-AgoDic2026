@@ -18,10 +18,6 @@ dig3 = ((numero%1000)%100)//10
 dig4 = (((numero%1000)%100)%10)
 
 suma = dig1 + dig2 + dig3 + dig4
-print()
-print()
-print({dig3})
-print({dig4})
 
 # Salida
 salida = (
