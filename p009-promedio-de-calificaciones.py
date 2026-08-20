@@ -19,4 +19,5 @@ promedio = suma / 3
 
 # Salida
 print(f"\nLas calificaciones son: {cal1}, {cal2}, {cal3}")
+print(f"La suma es: {suma:.2f}")
 print(f"El promedio es: {promedio:.2f}")
