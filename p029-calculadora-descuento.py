@@ -26,9 +26,9 @@ else:
             porcentaje = 0.05 # 5% de descuento
      #       descuento = compra * porcentaje
         else:
-            # Si no aplica ninguno de lo
+            # Si no aplica ninguno de los anteriores
             porcentaje = 0.00 # 0% de descuento
-            descuento = compra * porcentaje
+           # descuento = compra * porcentaje
             
 descuento = compra * porcentaje
 
