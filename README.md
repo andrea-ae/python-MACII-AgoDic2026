@@ -59,4 +59,5 @@
 - p032-aceptar-estudiante.py
 - p033-aceptar-estudiante-v2.py
 - p034-tipo-angulo.py
+- p034-tipo-angulo-v2.py
 - p035-tipo-triangulo.py
