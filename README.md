@@ -72,7 +72,7 @@
 - p042-precio-entrada-cine.py
 - p043-calculadora-anio-bisiesto.py 
 
-## Actividad 6 - Ejecución repetitiva - parte 1
+## Actividad 7 - Ejecución repetitiva - parte 1
 - p044-conteo-ascendente.py
 - p045-conteo-ascendente-v2.py
 - p046-conteo-descendente.py
