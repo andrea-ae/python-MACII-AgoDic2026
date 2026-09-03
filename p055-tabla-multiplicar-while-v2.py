@@ -1,5 +1,5 @@
-# p054-tabla-multiplicar-while-v1.py
-# Imprime la tabla del t hasta n usando while
+# p055-tabla-multiplicar-while-v2.py
+# Imprime las tablas hasta la del t, del 1 al n usando while
 # t y n son elegidos por el usuario
 
 while True:
@@ -12,23 +12,28 @@ while True:
     print("")
     
     while True:
-        t = int(input("¿Qué tabla quieres? "))
-        n = int(input("¿Hasta dónde la quieres? "))
+        n = int(input("¿Hasta qué tabla quieres? "))
+        m = int(input("¿Hasta dónde las quieres? "))
 
-        if t > 0 and n > 0: break
+        if n > 0 and m > 0: break
         print("…" * 70)
         print("❌ ¡Ha ocurrido un error! ❌ \nLos ingresados debes ser mayores que 0.\nIntente de nuevo. ")
         print("…" * 70)
 
-    print("")
-    print("—"*20)
-    print("    TABLA DEL " + str(t), end="\n")
-    print("—"*20)
+    
+    t = 1
+    while t <= n:
+        print("")
+        print("—"*20)
+        print("    TABLA DEL " + str(t), end="\n")
+        print("—"*20)
+       
+        c = 1
+        while c <= m:
+            print(f"  {t:3} x {c:3} = {c*t}")
+            c += 1
 
-    c = 1
-    while c <= n:
-        print(f"  {t:3} x {c:3} = {c*t}")
-        c += 1
+        t += 1
 
     if input("\n¿Deseas continuar? (S/N) ").upper() == "N": break
 
