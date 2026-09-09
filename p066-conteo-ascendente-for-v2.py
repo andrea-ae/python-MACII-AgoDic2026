@@ -17,8 +17,13 @@ print("…" * 70)
 
 print("Iniciando secuencia de conteo ascendente...")
 
-for i in range(1, n+1, m):
-    print(i, end=" ")
+i = 0
+
+for x in range(1, n+1, m):
+    print(f"{x:03d}", end=" ")
+    i += 1
+
+    if i % 18 == 0: print() # cambio de línea después de 18 iteraciones
 
 print(" ")
 print("∴" * 70)
