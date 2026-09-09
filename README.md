@@ -98,3 +98,14 @@
 - p062-conversion-temperaturas.py
 - p063-numero-mayor.py
 - p064-verificar-palindromo.py
+
+## Actividad 9 - Ejecución repetitiva - parte 3
+- p065-conteo-ascendente-for.py
+- p066-conteo-ascendente-for-v2.py
+- p067-conteo-descendente-for.py
+- p068-conteo-descendente-for-v2.py
+- p069-arriba-abajo.py
+- p070-suma-pares-impares.py
+- p071-suma-promedio-numeros.py
+- p072-suma-mutiplos.py
+- p073-cifrado-cesar.py
