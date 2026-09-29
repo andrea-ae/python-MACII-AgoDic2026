@@ -25,6 +25,7 @@ print(f"{'~~ Modificar calificaciones en el rango [2:5] (sin incluir 5) con 9, 9
 cal[2:5] = [9, 9, 9]
 print(f"Resultado: {cal}\n")
 
+print(f"Contenido actualizado: {cal}\n")
 
 MensajeFinal = "¡Programa terminado!"
 print("∴" * aaa)
