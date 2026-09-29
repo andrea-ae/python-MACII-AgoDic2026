@@ -1,7 +1,7 @@
 # p088-agregar-lista.py
 # Agregar elementos a una lista
 
-aaa = 80  # formato inicio y fin
+aaa = 65  # formato inicio y fin
 aab = aaa - 0 # formato encabezados
 
 #print("\033[2J\033[H", end="")
