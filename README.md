@@ -135,3 +135,11 @@
 - p089-eliminar-lista.py
 - p090-iterar-lista.py
 - p091-lista-de-gastos.py
+
+## Actividad 13 - Listas parte 2
+- p092-procesar-calificaciones.py
+- p093-consolidar-ventas.py
+- p094-precio-acciones.py
+- p095-registro-estudiantes.py
+- p096-procesar-datos-sensores.py
+- p097-producto-punto.py
