@@ -5,8 +5,6 @@
 
 aaa = 75  # formato inicio y fin
 aab = aaa - 0 # formato encabezados
-exito = "✔️  ¡Operación exitosa! ✔️"
-error = "❌  ¡Ha ocurrido un error! ❌"
 sep_sup = "\n" + "-" * aab
 sep_inf = "-" * aab + "\n"
 
