@@ -151,3 +151,4 @@
 - p101-clasificar-temperaturas.py
 - p102-aplanar-matriz.py
 - p103-resumen-ventas.py
+- p103b-resumen-ventas.py
