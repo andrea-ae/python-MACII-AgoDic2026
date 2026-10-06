@@ -26,7 +26,7 @@ print(blau + LinSup + blank + MeIni.upper().center(aaa) + blank + LinInf + defau
 ventas = [250, 800, 1200, 450, 1800, 950]
 
 # Ventas mayores a 1000 aplica 10% de descuento, menores a 1000 aploca 5% de descuento
-descuento = [v * 0.90 if v > 1000 else v * 0.95 for v in ventas]
+descuento = [round(v * 0.90, 2) if v >= 1000 else v * 0.95 for v in ventas]
 
 relevantes = [v for v in descuento if v > 1000]
 
