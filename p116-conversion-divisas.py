@@ -2,11 +2,11 @@
 # Conversor de divisas a pesos mexicanos usando diccionarios
 
 conversiones = {
-'USD': 17.98,
-'EUR': 20.13,
-'GBP': 23.76,
-'JPY': 0.11,
-'CAD': 12.61
+'USD': 17.98,   # 1 USD = 17.98 MXN
+'EUR': 20.13,   # 1 EUR = 20.13 MXN
+'GBP': 23.76,   # 1 GBP = 23.76 MXN
+'JPY': 0.11,    # 1 JPY = 00.11 MXN
+'CAD': 12.61    # 1 CAD = 12.61 MXN
 }
 
 MeIni =  "Conversor de monedas a pesos mexicanos (MXN)" # Mensaje inicial --------
@@ -18,19 +18,12 @@ LinInf = "∵" * aaa # Línea inferior ....................................
 SepSup = "\n" + "-" * aab # Separador superior /////////////////////////
 SepInf = "-" * aab + "\n" # Separador inferior /////////////////////////
 error = "❌  ¡Ha ocurrido un error! ❌" # Mensaje error ---------------
-exito = "✔️  ¡Operación exitosa! ✔️"    # Mensaje éxito ---------------
 
 gelb = "\033[93m" # amarillo
 grun = "\033[92m" # verde
 rot = "\033[91m" # rojo
 blau = "\033[94m" # azul
 default = "\033[0m"
-
-# print(sep_sup)
-# print(f"{exito :^{aab}}\n")
-# texto = f"Gasto de {gasto} agregado."
-# print(f"{texto:^{aab}}")
-# print(sep_inf)
 
 #########################################################################
 
@@ -43,11 +36,12 @@ for moneda in conversiones:
     print(f"- {moneda} ")
 
 while True:
-    moneda = input("\nIngrese la moneda a convertir: ").upper()
+    moneda = input("\nIngrese la moneda a convertir (USD, EUR, CAN, GBP, JPY): ").upper()
     if moneda in conversiones:
         break
     else:
-        print("Moneda no válida. Intente de nuevo.")
+        texto = f"La moneda no es válida. Intente de nuevo."
+        print(SepSup + f"{error :^{aab}}\n" + texto + "\n" + SepInf)
 
 while True:
     try:
@@ -55,12 +49,17 @@ while True:
         if cantidad > 0:
             break
         else:
-            print("La cantidad debe ser un número positivo. Intente de nuevo.")
+            texto = f"La cantidad debe ser un número positivo. Intente de nuevo."
+            print(SepSup + f"{error :^{aab}}\n" + texto + "\n" + SepInf)
 
     except ValueError:
-        print("Entrada no válida. Por favor, ingrese un número (ej. 150.50).")
+        texto = f"Entrada no válida. Por favor, ingrese un número (ej. 150.50)."
+        print(SepSup + f"{error :^{aab}}\n" + texto + "\n" + SepInf)
 
 resultado = cantidad * conversiones[moneda]
-print(f"{cantidad:,.2f} {moneda} son {resultado:,.2f} MXN")
+
+print(SepSup)
+print(f"{cantidad:,.2f} {moneda} equivalen a  {resultado:,.2f} MXN")
+print(SepInf)
 
 print(blau + LinSup + "\n" + MeFin.upper().center(aaa) + "\n" + LinInf + default)
