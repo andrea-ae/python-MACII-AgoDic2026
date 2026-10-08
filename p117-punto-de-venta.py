@@ -31,27 +31,29 @@ print("\033[2J\033[1;1H")
 print(blau + LinSup + "\n" + MeIni.upper().center(aaa) + "\n" + LinInf + default)
 
 menu = {
-'taco': 18.50,
-'burrito': 45.00,
-'quesadilla': 35.00,
-'refresco': 20.00,
-'agua': 15.00
+'Bollo': 18.50,
+'Muffin': 45.00,
+'Dona': 37.00,
+'Café': 20.00,
+'Agua': 15.00
 }
 
-print("--- Bienvenido a 'El Taco Feroz' ---")
-print("Este es nuestro menú:")
+print("--- Bienvenido a 'Panadería Fina' ---")
+print("-" * 37)
+print("MENÚ:")
 for item, precio in menu.items():
-    print(f" - {item:<12} : ${precio:,.2f}")
-print("-" * 35)
+    print(f" - {item:<12} ------ ${precio:,.2f}")
+print("-" * 37)
 
 orden = {}
 total_general = 0
 
 while True:
-    producto = input("\n¿Qué desea ordenar? (escriba 'fin' para terminar): ").lower()
+    producto = input("\nEscriba su orden ('fin' para terminar): ")
     if producto == 'fin':break
     if producto not in menu:
-        print("Error: Ese producto no está en el menú. Intente de nuevo.")
+        texto = f"Ese producto no está en el menú. Intente de nuevo."
+        print(SepSup + f"{error :^{aab}}\n" + texto + "\n" + SepInf)
         continue
     try:
         cantidad = int(input(f"Cantidad: "))
@@ -59,12 +61,12 @@ while True:
             print("Error: La cantidad debe ser un número positivo.")
             continue
     except ValueError:
-        print("Error: Debe ingresar un número entero (ej. 2).")
+        texto = f"Debe ingresar un número entero (ej. 2)."
+        print(SepSup + f"{error :^{aab}}\n" + texto + "\n" + SepInf)
         continue
 
     orden[producto] = orden.get(producto, 0) + cantidad
     print(f"Agregados {cantidad} {producto}(s) a su orden.")
-
 
 print("\n--- SU RECIBO ---")
 
@@ -77,7 +79,7 @@ else:
         print(f" {cantidad} x {producto:<12} : ${subtotal:,.2f}")
         total_general += subtotal
 
-    print("-" * 35)
+    print("-" * 37)
     print(f"TOTAL A PAGAR: ${total_general:,.2f}")
     print("¡Gracias por su compra!")
 
