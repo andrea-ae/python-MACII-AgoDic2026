@@ -9,20 +9,12 @@ LinSup = "∴" * aaa # Línea superior ....................................
 LinInf = "∵" * aaa # Línea inferior ....................................
 SepSup = "\n" + "-" * aab # Separador superior /////////////////////////
 SepInf = "-" * aab + "\n" # Separador inferior /////////////////////////
-error = "❌  ¡Ha ocurrido un error! ❌" # Mensaje error ---------------
-exito = "✔️  ¡Operación exitosa! ✔️"    # Mensaje éxito ---------------
 
 gelb = "\033[93m" # amarillo
 grun = "\033[92m" # verde
 rot = "\033[91m" # rojo
 blau = "\033[94m" # azul
 default = "\033[0m"
-
-#print(sep_sup)
-# print(f"{exito :^{aab}}\n")
-# texto = f"Gasto de {gasto} agregado."
-# print(f"{texto:^{aab}}")
-# print(sep_inf)
 
 #########################################################################
 
@@ -32,26 +24,26 @@ print(blau + LinSup + "\n" + MeIni.upper().center(aaa) + "\n" + LinInf + default
 
 datos = {}
 
-print('Introduce nombres y edades (nombre vacío para terminar)')
+print("Escribe el nombre y edad de una persona (nombre vacío para terminar)")
 
 while True:
-    nombre = input('Nombre: ')
-    if nombre == '':
+    nombre = input("Nombre: ")
+    if nombre == "":
         break
     else:
-        datos[nombre] = int(input(f'Edad de {nombre}: '))
+        datos[nombre] = int(input(f"Edad de {nombre}: "))
 
-texto = f'El diccionario de datos creado'
-print(SepSup + '\n' + f"{texto:^{aab}}" + '\n' + SepInf)
-print(f'# de datos ingresados - {len(datos)} \nDatos: {datos}\n')
-print('\nListado y promedio de edades:')
+texto = f"Diccionario de datos"
+print(SepSup + "\n" + f"{texto:^{aab}}" + "\n" + SepInf)
+print(f"Elementos: {len(datos)} - Datos: {datos}")
 
+print("\nResumen:")
 s = 0
 for n, e in datos.items():
-    print(f'{n:<20} - {e:2}')
+    print(f"- {n}: {e:2} años")
     s += e
 
 p = s / len(datos) if datos else 0
-print(f'\n\nSuma: {s} y promedio: {p:.2f}')
+print(f"\nPromedio: {p:.2f}")
 
 print(blau + LinSup + "\n" + MeFin.upper().center(aaa) + "\n" + LinInf + default)
