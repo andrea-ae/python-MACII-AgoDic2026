@@ -153,6 +153,16 @@
 - p103-resumen-ventas.py
 - p103b-resumen-ventas.py
 
+## Tarea 5 - Listas
+- p104-procesar-notas.py
+- p105-listas-multiplica.py
+- p106-mes-día-nombre.py
+- p107-listas-aleatorios-suma.py
+- p108-ciudades.py
+- p109-lista-impares.py
+- p110-comprension-filtra-palabras.py
+- p111-comprension-pares-cuadrados.py
+
 ## Actividad 16 - Diccionarios parte 1
 - p112-datos-estudiante.py
 - p113-calificaciones-estudiante.py
