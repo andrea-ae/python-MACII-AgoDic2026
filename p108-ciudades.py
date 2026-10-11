@@ -5,7 +5,7 @@
 # La lista ordenada en orden descendente.
 # Cuántas ciudades inician con una letra consonante y sus nombres.
 
-MeIni =  "Multiplicar dos listas" # Mensaje inicial --------
+MeIni =  "Ciudades" # Mensaje inicial --------
 MeFin = "¡Programa terminado!" # Mensaje final -------------------------
 aaa = 100  # Formato inicio y fin |||||||||||||||||||||||||||||||||||||||
 aab = aaa - 0 # Formato encabezados|||||||||||||||||||||||||||||||||||||

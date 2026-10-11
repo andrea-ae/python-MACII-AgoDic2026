@@ -5,7 +5,7 @@
 # Los números que son divisibles entre 3 y su suma.
 # Pedir un elemento a buscar en la lista original e indicar si está y en qué posición (índice).
 
-MeIni =  "Multiplicar dos listas" # Mensaje inicial --------
+MeIni =  "Lista impares" # Mensaje inicial --------
 MeFin = "¡Programa terminado!" # Mensaje final -------------------------
 aaa = 70  # Formato inicio y fin |||||||||||||||||||||||||||||||||||||||
 aab = aaa - 0 # Formato encabezados|||||||||||||||||||||||||||||||||||||

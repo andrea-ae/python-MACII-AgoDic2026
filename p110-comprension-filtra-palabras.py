@@ -3,7 +3,7 @@
 # para crear una nueva lista que contenga solo aquellas palabras que tengan más de 4 caracteres y convertirlas a 
 # mayúsculas. Imprimir la lista original y la lista filtrada.
 
-MeIni =  "Multiplicar dos listas" # Mensaje inicial --------
+MeIni =  "Filtrar palabras" # Mensaje inicial --------
 MeFin = "¡Programa terminado!" # Mensaje final -------------------------
 aaa = 50  # Formato inicio y fin |||||||||||||||||||||||||||||||||||||||
 aab = aaa - 0 # Formato encabezados|||||||||||||||||||||||||||||||||||||
