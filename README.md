@@ -170,3 +170,25 @@
 - p115-conversor-unidades.py
 - p116-conversion-divisas.py
 - p117-punto-de-venta.py
+
+## Actividad 17 - Diccionarios parte 2
+- p118-lote-autos.py
+- p119-registro-estudiantes.py
+- p120-reporte-ventas.py
+- p121-area-figuras.py
+
+## Tarea 6 - Diccionarios
+- p122-crear-acceder-diccionario.py
+- p123-modificar-diccionario.py
+- p124-agregar-diccionario.py
+- p125-eliminar-diccionario.py
+- p126-procesar-diccionario.py
+- p127-contar-caracteres.py
+
+## Actividad 18 - Conjuntos
+- p128-municipios.py
+- p129-operaciones-conjuntos.py
+
+## Tarea 7 - Conjuntos
+- p128-conjunto-personas.py
+- p129-conjunt-numeros.py
