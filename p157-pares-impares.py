@@ -3,7 +3,7 @@
 # y otra con los números impares.
 
 # -------------------------------------------------------------------------------------------------
-MeIni = "Sumar los elementos de una lista de números" # Mensaje inicial --------
+MeIni = "Lista de pares e impares" # Mensaje inicial --------
 MeFin = "¡Programa terminado!" # Mensaje final -------------------------
 aaa = 80  # Formato inicio y fin |||||||||||||||||||||||||||||||||||||||
 aab = aaa - 5 # Formato encabezados|||||||||||||||||||||||||||||||||||||
@@ -54,6 +54,7 @@ extremos(MeIni) # ----------------------------- Mensaje inicial
 numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 pares, impares = separar_pares_impares(numeros)
 
+encabezado(f"Lista original: {numeros} - Cantidad: {len(numeros)}", rot)
 encabezado(f"Números pares: {pares} - Cantidad: {len(pares)}", grun)
 encabezado(f"Números impares: {impares} - Cantidad: {len(impares)}", lila)
 
