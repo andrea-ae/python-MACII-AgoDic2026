@@ -2,7 +2,7 @@
 # Genera dos listas de números aleatorios y crea una tercera lista que sea la suma de las dos primeras.
 
 # -------------------------------------------------------------------------------------------------
-MeIni = "Sumar los elementos de una lista de números" # Mensaje inicial --------
+MeIni = "Generar dos listas aleatorias y crear una tercera con su suma" # Mensaje inicial --------
 MeFin = "¡Programa terminado!" # Mensaje final -------------------------
 aaa = 80  # Formato inicio y fin |||||||||||||||||||||||||||||||||||||||
 aab = aaa - 5 # Formato encabezados|||||||||||||||||||||||||||||||||||||
