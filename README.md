@@ -220,3 +220,12 @@
 - p150-factorial.py
 - p151-promedio-letra.py
 - p152-suma-rango.py
+
+## Actividad 21 - Funciones parte 2
+- p153-suma-lista.py
+- p154-lista-pares.py
+- p155-mayor-menor.py
+- p156-mayores-promedio.py
+- p157-pares-impares.py
+- p158-aleatorios.py
+- p159-nombres.py
