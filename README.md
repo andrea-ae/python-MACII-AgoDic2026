@@ -229,3 +229,12 @@
 - p157-pares-impares.py
 - p158-aleatorios.py
 - p159-nombres.py
+
+## Tarea 8 - Funciones
+- p149–numero-menor.py
+- p150-dia-semana.py
+- p151–medidas-longitud.py
+- p152-suma-pares-impares.py
+- p153-suma-digitos.py
+- p154-calcula-factoriales.py
+- p155-estadisticas-basicas.py
